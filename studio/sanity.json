@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "uber-blockchain"
-  },
   "api": {
-    "projectId": "jl5yrfd1",
+    "projectId": "ifupta2w",
     "dataset": "production"
+  },
+  "project": {
+    "name": "CityHop"
   },
   "plugins": [
     "@sanity/base",
