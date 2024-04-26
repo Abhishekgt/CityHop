@@ -1,5 +1,9 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/api/db/getRideTypes": "pages/api/db/getRideTypes.js",
+  "/": "pages/index.js",
+  "/api/map/getLocationCoordinates": "pages/api/map/getLocationCoordinates.js",
+  "/api/map/getDuration": "pages/api/map/getDuration.js"
 }
