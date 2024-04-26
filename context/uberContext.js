@@ -84,6 +84,26 @@ export const UberProvider = ({ children }) => {
     }
   }
 
+  // const connectWallet = () => {
+  //   // Assuming you have a function in your context to connect the wallet
+  //   // For example, if you're using Web3.js for Ethereum:
+  //   if (window.ethereum) {
+  //     window.ethereum
+  //       .request({ method: 'eth_requestAccounts' })
+  //       .then((accounts) => {
+  //         // Update the current account in your context
+  //         setCurrentAccount(accounts[0]);
+  //       })
+  //       .catch((error) => {
+  //         console.error(error);
+  //         // Handle error
+  //       });
+  //   } else {
+  //     console.error('MetaMask extension not detected');
+  //     // Handle if MetaMask is not installed or available
+  //   }
+  // };
+
   const createLocationCoordinatePromise = (locationName, locationType) => {
     return new Promise(async (resolve, reject) => {
       try {
